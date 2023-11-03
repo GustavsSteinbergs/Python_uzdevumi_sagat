@@ -18,20 +18,20 @@ class AAA:
     # jādefinē konstruktors
     def __init__(self):
         self.roma_sk={
-            1:'I'
-            4:'IV'
-            5:'V'
-            9:'IX'
-            10:'X'
-            40:'XL'
-            50:'L'
-            90:'XC'
-            100:'100'
-            400:'CD'
-            500:'D'
-            900:'CM'
-            1000:'M'
-    }
+            1:'I',
+            4:'IV',
+            5:'V',
+            9:'IX',
+            10:'X',
+            40:'XL',
+            50:'L',
+            90:'XC',
+            100:'100',
+            400:'CD',
+            500:'D',
+            900:'CM',
+            1000:'M',
+        }
         #definē nepieciešamās metodes
         def to_roman(self, num): 
          result ="" 
@@ -43,7 +43,7 @@ class AAA:
 
 
 #piemērs
-skaitlis-21
+skaitlis=21
 #definējam objektu
 kk=AAA()
 # jaunajam objekta jāizsauc klases metode
